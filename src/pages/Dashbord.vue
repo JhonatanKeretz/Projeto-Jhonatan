@@ -7,7 +7,7 @@
 <script lang="ts">
 import {onMounted} from 'vue';
 import axios from 'axios';
-import * as c3 from 'c3';
+import * as  c3 from 'c3';
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Dashboard",

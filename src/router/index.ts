@@ -3,7 +3,7 @@ import Dashboard from '@/pages/Dashboard.vue';
 import Register from '@/pages/Register.vue';
 import Wrapper from '@/pages/Wrapper.vue';
 import Login from '@/pages/Login.vue';
-//import Users from '@/pages/users/Users.vue';
+import Users from '@/pages/users/Users.vue';
 import UserCreate from '@/pages/users/UserCreate.vue';
 import UserEdit from '@/pages/users/UserEdit.vue';
 import Roles from '@/pages/roles/Roles.vue';
@@ -12,7 +12,7 @@ import RoleEdit from '@/pages/roles/RoleEdit.vue';
 import Products from '@/pages/products/Products.vue';
 import ProductCreate from '@/pages/products/ProductCreate.vue';
 import ProductEdit from '@/pages/products/ProductEdit.vue';
-//import Orders from '@/pages/orders/Orders.vue';
+import Orders from '@/pages/orders/Orders.vue';
 import Profile from '@/pages/Profile.vue';
 
 const routes: Array<RouteRecordRaw> = [
@@ -24,7 +24,7 @@ const routes: Array<RouteRecordRaw> = [
         children: [
             {path: '', component: Dashboard},
             {path: '/profile', component: Profile},
-           // {path: '/users', component: Users},
+            {path: '/users', component: Users},
             {path: '/users/create', component: UserCreate},
             {path: '/users/:id/edit', component: UserEdit},
             {path: '/roles', component: Roles},
@@ -33,7 +33,7 @@ const routes: Array<RouteRecordRaw> = [
             {path: '/products', component: Products},
             {path: '/products/create', component: ProductCreate},
             {path: '/products/:id/edit', component: ProductEdit},
-            //{path: '/orders', component: Orders},
+            {path: '/orders', component: Orders},
         ]
     }
 ]
