@@ -1,4 +1,4 @@
-<!-- eslint-disable vue/multi-word-component-names -->
+
 <template>
    <div class="table-responsive">
         <table class="table table-striped table-sm">

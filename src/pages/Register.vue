@@ -23,7 +23,7 @@ import {ref} from 'vue';
 import axios from 'axios';
 import {useRouter} from "vue-router";
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
+  
   name: "Register",
   setup() {
     const firstName = ref('');
@@ -33,14 +33,19 @@ export default {
     const passwordConfirm = ref('');
     const router = useRouter();
     const submit = async () => {
-      await axios.post('register', {
+      try{
+await axios.post('register', {
         first_name: firstName.value,
         last_name: lastName.value,
         email: email.value,
         password: password.value,
         password_confirm: passwordConfirm.value,
       });
+      } catch(e){
       await router.push('/login');
+      }
+      
+      
     }
     return {
       firstName,

@@ -53,7 +53,6 @@ import axios from "axios";
 import { Product } from "@/model/product";
 import Paginator from "@/components/Paginator.vue";
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
   name: "Products",
   components: { Paginator },
   setup() {

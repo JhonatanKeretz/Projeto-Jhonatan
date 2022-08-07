@@ -37,7 +37,7 @@ import {reactive, computed, watch} from 'vue';
 import axios from 'axios';
 import {useStore} from "vuex";
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
+
   name: "Profile",
   setup() {
     const infoData = reactive({

@@ -34,7 +34,6 @@
 
 <script lang="ts">
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
-  name: "Menu"
+ name: "Menu"
 }
 </script>

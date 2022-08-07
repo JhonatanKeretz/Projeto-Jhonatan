@@ -14,7 +14,7 @@
 <script lang="ts">
 import {ref, watch, SetupContext} from "vue";
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
+  
   name: "Paginator",
   emits: ['page-changed'],
   props: {

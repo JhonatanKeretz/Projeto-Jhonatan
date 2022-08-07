@@ -20,8 +20,7 @@ import {onMounted} from 'vue';
 import {useRouter} from "vue-router";
 import {useStore} from "vuex";
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
-  name: "Wrapper",
+   name: "Wrapper",
   components: {
     Nav,
     Menu

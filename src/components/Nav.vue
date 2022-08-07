@@ -14,7 +14,7 @@ import {ref, computed, watch} from "vue";
 import axios from "axios";
 import {useStore} from "vuex";
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
+  
   name: "Nav",
   setup() {
     const name = ref('');
